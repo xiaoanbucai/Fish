@@ -2,7 +2,7 @@
     <div style="width:100%;height:100%;top:0px;position:absoule">
     <div style="height:85%">
         <img style="max-width: 100%;max-height: 280px;display: block;margin: 3rem auto 1.5rem;padding: 2rem"
-            src="/logo.png"></img>
+            src="/Fish/logo.png"></img>
         <h1 style="margin: 1.8rem auto;text-align:center">认真生活-快乐摸鱼</h1>
         <p style="text-align:center;font-size:28px;color:#6d8bac">个人博客知识库</p>
         <div style="text-align: center;height: 50px;padding-bottom:8%">
