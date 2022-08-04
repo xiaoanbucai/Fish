@@ -1,13 +1,22 @@
 module.exports = {
 	base: '/Fish/',
 	title: '摸鱼',
-	description: 'Vuepress blog demo',
+	description: '个人收藏夹',
+	head: [
+		[
+			'link',
+			{
+				rel: 'icon',
+				href: '/favicon.ico'
+			}
+		]
+	],
 	themeConfig: {
 		// 导航栏logo
-		logo: '/assets/img/logo.png',
+		logo: '/logo.png',
 		// 导航栏链接
 		nav: [
-			{ text: 'HOME', link: '/index.md' },
+			{ text: 'HOME', link: '/' },
 			{ text: 'BLOG', link: '/blog/FirstBlog.md' }
 		],
 		// 提供了一个 items 数组而不是一个单一的 link 时，它将显示为一个 下拉列表
@@ -27,7 +36,7 @@ module.exports = {
 		// 自定义仓库链接文字。
 		repoLabel: 'GitHub',
 		sidebar: [
-			// ['/', '首页'],
+			['/', '首页'],
 			['/blog/FirstBlog.md', '我的第一篇博客']
 		],
 		// 通过使用对象来将侧边栏划分成多个组
