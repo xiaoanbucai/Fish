@@ -43,9 +43,9 @@ module.exports = {
 		sidebar: utils.inferSiderbars(),
 		lastUpdated: '上次更新',
 		repo: 'PanJiaChen/awesome-bookmarks',
-		editLinks: true,
+		// editLinks: true,
 		docsDir: 'docs',
-		editLinkText: '在 GitHub 上编辑此页',
+		// editLinkText: '在 GitHub 上编辑此页',
 		sidebarDepth: 3
 		// 通过使用对象来将侧边栏划分成多个组
 		// 侧边栏的每个子组默认是可折叠的，你可以设置 collapsable: false 来让一个组永远都是展开状态。 
